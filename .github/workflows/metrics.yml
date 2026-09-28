@@ -18,7 +18,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           # Token de autenticação (obrigatório)
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_SECRET_TOKEN }}
 
           # Seu usuário do GitHub
           user: Cristiano005
